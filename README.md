@@ -1,14 +1,18 @@
-# File Integrity Checker 🛡️
+# 🧩 File Integrity Checker
 
-A simple Python project that monitors file changes using SHA-256 hash values.
+A Python-based File Integrity Checker that helps monitor changes in files using cryptographic hashes.  
+It can detect unauthorized modifications by comparing files against a secure baseline.
 
-## Features
-- Calculates and stores file hash values (baseline)
-- Detects modified, missing, or new files
-- Uses built-in Python libraries (`hashlib`, `os`, `json`)
+## 🔍 Features
+- Generates and saves file integrity baselines.
+- Detects changes, deletions, or additions.
+- Easy to run and customize.
 
-## How to Run
-1. Put files to monitor inside the `target_files` folder.
-2. Run the program:
-   ```bash
-   python main.py
+## 🧠 How It Works
+1. On first run, the program creates a `baseline.json` file storing hash values for all monitored files.
+2. On subsequent runs, it compares the current file states with the baseline.
+3. Any modified, added, or deleted files are reported.
+
+## ⚙️ Usage
+```bash
+python main.py

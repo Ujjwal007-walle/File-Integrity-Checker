@@ -24,3 +24,17 @@ Run the following command in your terminal:
 
 ```bash
 python main.py
+
+## 📁 Example Output
+Modified files:
+- main.py
+
+## 🧰 Technologies Used
+
+Python 3
+hashlib
+json
+os
+
+## 🧑‍💻 Author
+UJJWAL KUMAR

@@ -24,6 +24,7 @@ Run the following command in your terminal:
 
 ```bash
 python main.py
+```
 
 ## 📁 Example Output
 Modified files:

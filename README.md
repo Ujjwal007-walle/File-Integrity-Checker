@@ -32,10 +32,10 @@ Modified files:
 
 ## 🧰 Technologies Used
 
-Python 3
-hashlib
-json
-os
+-Python 3
+-hashlib
+-json
+-os
 
 ## 🧑‍💻 Author
 UJJWAL KUMAR
